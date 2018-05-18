@@ -35,12 +35,12 @@ TRANSLATION_MAX_LEN = MAX_LEN * 2
 
 # maximum number of different words, every additional
 # word is treated as UNK
-SOURCE_VOCAB_SIZE = 35000
-TARGET_VOCAB_SIZE = 35000
+SOURCE_VOCAB_SIZE = 30000
+TARGET_VOCAB_SIZE = 30000
 
 EMBEDDING_SIZE = 512
 # size of LSTM hidden state vectors
-HIDDEN_SIZE = 512
+HIDDEN_SIZE = 256
 
 LEARNING_RATE = 0.0001
 
